@@ -5,7 +5,7 @@ public class Jeu {
 	private String titre;
 	private Console console;
 	
-	
+	private Boutique boutique;
 	
 	public Jeu(String titre, Console console) {
 		this.titre = titre;
