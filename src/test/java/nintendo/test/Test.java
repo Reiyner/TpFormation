@@ -2,7 +2,9 @@ package nintendo.test;
 
 
 
+
 import nintendo.model.Client;
+import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -26,6 +28,9 @@ public class Test {
 		Client client2 = new Client ("Doe","Jane");
 		
 
+		Boutique boutique = new Boutique("Micromania", "Arras");
+		
+		
 	}
 
 }
