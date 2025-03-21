@@ -15,4 +15,5 @@ public class Salon extends Console{
 	}
 
 	
+
 }

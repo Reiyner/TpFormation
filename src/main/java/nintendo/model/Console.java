@@ -3,7 +3,6 @@ package nintendo.model;
 import java.time.LocalDate;
 
 public abstract class Console{
-
 	private String nom;
 	private double prix;
 	private LocalDate dateSortie;

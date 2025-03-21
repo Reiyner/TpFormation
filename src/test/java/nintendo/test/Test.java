@@ -5,8 +5,11 @@ package nintendo.test;
 
 import nintendo.model.Client;
 
-import java.time.LocalDate;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+import nintendo.model.Achat;
 import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Hybride;
@@ -17,6 +20,10 @@ import nintendo.model.Salon;
 public class Test {
 
 	public static void main(String[] args) {
+		
+	    List<Achat> listeAchatsClient1 = new ArrayList();
+	    List<Achat> listeAchatsClient2 = new ArrayList();
+	    
 		// TODO Auto-generated method stub
 		Console nintendoSwitch = new Hybride("switch", 300, LocalDate.parse("2017-03-03"));
 		Console playstationV = new Salon("playstationV", 600, LocalDate.parse("2020-11-12"));
@@ -31,10 +38,18 @@ public class Test {
 		Jeu titanFall = new Jeu("Titan Fall",xbox);
 		
 		Client client1 = new Client ("Doe","John");
-		Client client2 = new Client ("Doe","Jane");
-		
+		Client client2 = new Client ("Doe","Jane");	
 
 		Boutique boutique = new Boutique("Micromania", "Arras");
+		
+		hades.setBoutique(boutique);
+		zelda.setBoutique(boutique);
+		pokemon.setBoutique(boutique);
+		civilisation.setBoutique(boutique);
+		titanFall.setBoutique(boutique);
+		
+		client1.setListeAchats(listeAchatsClient1);
+		client2.setListeAchats(listeAchatsClient2);
 		
 		
 	}

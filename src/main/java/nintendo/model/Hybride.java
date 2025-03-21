@@ -1,5 +1,6 @@
 package nintendo.model;
 
+
 import java.time.LocalDate;
 
 public class Hybride extends Console{

@@ -12,5 +12,6 @@ public class Portable extends Console{
 	public String toString() {
 		return "Portable [getNom()=" + getNom() + ", getPrix()=" + getPrix() + ", getDateSortie()=" + getDateSortie()
 				+ "]";
+
 	}
 }
