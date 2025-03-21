@@ -2,6 +2,7 @@ package nintendo.test;
 
 
 
+import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -20,6 +21,10 @@ public class Test {
 		Jeu	pokemon = new Jeu("Pokemon",nintendoDS);
 		Jeu civilisation = new Jeu("Civilisation",pc);
 		Jeu titanFall = new Jeu("Titan Fall",xbox);
+		
+		Client client1 = new Client ("Doe","John");
+		Client client2 = new Client ("Doe","Jane");
+		
 
 	}
 
