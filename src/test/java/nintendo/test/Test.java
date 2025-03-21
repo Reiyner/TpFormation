@@ -42,6 +42,18 @@ public class Test {
 
 		Boutique boutique = new Boutique("Micromania", "Arras");
 		
+		Achat achat1 = new Achat(titanFall,LocalDate.parse("2004-11-21"),45.0);
+		Achat achat2 = new Achat(pokemon,LocalDate.parse("2004-11-21"),45.0);
+		Achat achat3 = new Achat(hades,LocalDate.parse("2004-11-21"),45.0);
+		Achat achat4 = new Achat(zelda,LocalDate.parse("2004-11-21"),45.0);
+		
+		listeAchatsClient1.add(achat4);
+		listeAchatsClient1.add(achat3);
+		listeAchatsClient2.add(achat2);
+		listeAchatsClient2.add(achat1);
+		
+		
+		
 		hades.setBoutique(boutique);
 		zelda.setBoutique(boutique);
 		pokemon.setBoutique(boutique);
@@ -50,6 +62,12 @@ public class Test {
 		
 		client1.setListeAchats(listeAchatsClient1);
 		client2.setListeAchats(listeAchatsClient2);
+		
+		
+
+		System.out.println(boutique);
+		System.out.println(client1);
+		System.out.println(client2);
 		
 		
 	}

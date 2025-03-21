@@ -10,7 +10,7 @@ public class Portable extends Console{
 
 	@Override
 	public String toString() {
-		return "Portable [getNom()=" + getNom() + ", getPrix()=" + getPrix() + ", getDateSortie()=" + getDateSortie()
+		return "Portable [nom=" + getNom() + ",prix=" + getPrix() + ", DateSortie=" + getDateSortie()
 				+ "]";
 
 	}

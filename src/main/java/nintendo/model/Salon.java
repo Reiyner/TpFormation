@@ -10,7 +10,7 @@ public class Salon extends Console{
 
 	@Override
 	public String toString() {
-		return "Salon [getNom()=" + getNom() + ", getPrix()=" + getPrix() + ", getDateSortie()=" + getDateSortie()
+		return "Salon [nom=" + getNom() + ", prix=" + getPrix() + ", DateSortie=" + getDateSortie()
 				+ "]";
 	}
 
