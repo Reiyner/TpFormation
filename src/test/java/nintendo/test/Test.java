@@ -2,6 +2,7 @@ package nintendo.test;
 
 
 
+import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -21,6 +22,9 @@ public class Test {
 		Jeu civilisation = new Jeu("Civilisation",pc);
 		Jeu titanFall = new Jeu("Titan Fall",xbox);
 
+		Boutique boutique = new Boutique("Micromania", "Arras");
+		
+		
 	}
 
 }
